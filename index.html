@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -138,9 +139,19 @@ textarea { resize: vertical; min-height: 75px; }
     <!-- ✏️ SITES → modifier / ajouter / supprimer des blocs site-card -->
 
     <div class="site-card">
+      <img src="moulin.jpg" alt="Moulin de Mormoulins"
+           style="width:100%; height:130px; object-fit:cover; border-radius:3px; margin-bottom:0.7rem;"
+           onerror="this.style.display='none'">
       <span class="card-icon">⚙️</span>
       <h3>Moulin de Mormoulins</h3>
       <p>Découverte du patrimoine meulier de Chaudon. Visite guidée sur inscription.</p>
+      <p style="font-size:0.82rem; color:var(--gris); margin-top:0.5rem; line-height:1.4;">
+        📍 Route de Mauzaize<br>28210 Chaudon
+      </p>
+      <a href="https://www.moulindemormoulins.fr/" target="_blank"
+         style="display:inline-block; margin-top:0.5rem; font-size:0.82rem; color:var(--bleu); text-decoration:underline;">
+        🌐 Site du moulin
+      </a><br>
       <span class="badge-inscription">Inscription recommandée</span>
     </div>
 
@@ -148,13 +159,13 @@ textarea { resize: vertical; min-height: 75px; }
       <span class="card-icon">🏛️</span>
       <h3>Arsenal</h3>
       <p>Exposition photo et projection du film sur le vieux Chaudon.</p>
-      <span class="badge-libre">Visite libre</span>
+      <span class="badge-libre" style="background:#fff3cd; color:#856404;">À confirmer</span>
     </div>
 
     <div class="site-card">
       <span class="card-icon">⛪</span>
       <h3>Église de Chaudon</h3>
-      <p>Ouverture exceptionnelle de l'église du village.</p>
+      <p>Ouverture exceptionnelle de l'église du village, avec la présence d'un bénévole.</p>
       <span class="badge-libre">Visite libre</span>
     </div>
 
@@ -162,7 +173,7 @@ textarea { resize: vertical; min-height: 75px; }
       <span class="card-icon">🪣</span>
       <h3>Le Lavoir</h3>
       <p>Visite du lavoir, témoin du patrimoine rural d'autrefois.</p>
-      <span class="badge-libre">Visite libre</span>
+      <span class="badge-libre" style="background:#fff3cd; color:#856404;">À confirmer</span>
     </div>
 
     <!-- ✏️ CHÂTEAU → retirer les balises de commentaire si confirmé
@@ -176,7 +187,7 @@ textarea { resize: vertical; min-height: 75px; }
 
   </div>
   <!-- ✏️ Supprimer cette note quand le programme est finalisé -->
-  <p class="note-card">📌 Programme susceptible d'évoluer. Informations complémentaires à venir.</p>
+  <p class="note-card">📌 Programme en cours de finalisation — commission patrimoine le 24 juin. Des confirmations seront communiquées prochainement.</p>
 </section>
 
 <hr class="divider">
